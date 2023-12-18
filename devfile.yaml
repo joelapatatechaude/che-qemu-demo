@@ -6,7 +6,7 @@ metadata:
 components:
 - name: workspace
   container: 
-    image: image-registry.openshift-image-registry.svc:5000/che-dev-images/fedora-workspace:latest
+    image: quay.io/rh_ee_cschmitz/chris-workspace:latest
     memoryLimit: 6Gi
     memoryRequest: 1Gi
     cpuRequest: 500m
